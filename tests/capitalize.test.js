@@ -1,8 +1,5 @@
 import { capitalize } from "../code/capitalize";
 
-test('Be a string' , () => {
-    expect(typeof 'value').toBe('string');
-});
 
 test('Capitalized' , () => {
     expect(capitalize('gorz')).toBe('Gorz');
